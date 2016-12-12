@@ -1,0 +1,245 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AE_ALL_EVENTS	ae.h	23;"	d	language:C++
+AE_DONT_WAIT	ae.h	24;"	d	language:C++
+AE_ERR	ae.h	5;"	d	language:C++
+AE_FILE_EVENTS	ae.h	21;"	d	language:C++
+AE_NOMORE	ae.h	26;"	d	language:C++
+AE_NONE	ae.h	16;"	e	language:C++	enum:Event_Type
+AE_OK	ae.h	4;"	d	language:C++
+AE_READABLE	ae.h	17;"	e	language:C++	enum:Event_Type
+AE_TIME_EVENTS	ae.h	22;"	d	language:C++
+AE_WRITABLE	ae.h	18;"	e	language:C++	enum:Event_Type
+ANET_ERR	anet.h	16;"	d	language:C++
+ANET_OK	anet.h	15;"	d	language:C++
+CC	Makefile	1;"	m	language:Make
+CFLAGS	Makefile	2;"	m	language:Make
+CLIENT_OBJS	Makefile	11;"	m	language:Make
+CLI_ERR	net.h	18;"	d	language:C++
+CLI_OK	net.h	19;"	d	language:C++
+CLI_QUERY_CHUNK_BYTE	net.h	16;"	d	language:C++
+DEFAULT_ADDR	reactor_cli.c	11;"	d	language:C	file:
+EVENTLOOP_FDSET_INCR	reactor_main.h	12;"	d	language:C++
+Event_Type	ae.h	11;"	g	language:C++
+INCLUDE	Makefile	3;"	m	language:Make
+InitServer	reactor_main.h	17;"	p	language:C++	signature:(redisServer *server)
+LISTEN_BACKLOG	reactor_main.h	15;"	d	language:C++
+MAX_CLIENTS	ae_event_handler.h	9;"	d	language:C++
+PORT	reactor_cli.c	12;"	d	language:C	file:
+PORT	reactor_main.h	14;"	d	language:C++
+QUERY_CHUNK_BYTE	ae_event_handler.h	8;"	d	language:C++
+REACTOR_CLI	Makefile	10;"	m	language:Make
+REACTOR_SERVER	Makefile	7;"	m	language:Make
+REDIS_IP_STR_LEN	ae_event_handler.h	11;"	d	language:C++
+REDIS_NOTUSED	ae.h	28;"	d	language:C++
+REPLY_CHUNK_BYTE	ae_event_handler.h	7;"	d	language:C++
+SERVER_OBJS	Makefile	8;"	m	language:Make
+SOURCES	Makefile	5;"	m	language:Make
+__AE_EVENT_HANDLER_H__	ae_event_handler.h	2;"	d	language:C++
+__AE_H__	ae.h	2;"	d	language:C++
+__AE_SELECT_H__	ae_select.h	2;"	d	language:C++
+__ANET_H__	anet.h	2;"	d	language:C++
+__NET_H__	net.h	2;"	d	language:C++
+__REACTOR_MAIN_H__	reactor_main.h	2;"	d	language:C++
+__ZMALLOC_H__	zmalloc.h	2;"	d	language:C++
+_anetTcpServer	anet.c	92;"	f	language:C	file:	signature:(int port, char * bindaddr, int flag, int backlog)
+_redisContextConnectTcp	net.c	57;"	f	language:C	file:	signature:(redisContext *c, const char *addr, int port, const struct timeval *timeout)
+_rfds	ae_select.h	17;"	m	language:C++	struct:aeApiState	access:public
+_wfds	ae_select.h	17;"	m	language:C++	struct:aeApiState	access:public
+acceptCommonHandler	ae_event_handler.c	15;"	f	language:C	file:	signature:(int client_fd, aeEventLoop *el)
+acceptTcpHandler	ae_event_handler.c	25;"	f	language:C	signature:(aeEventLoop *el, int fd, void *privdata, int mask)
+acceptTcpHandler	ae_event_handler.h	33;"	p	language:C++	signature:(aeEventLoop *el, int fd, void *privdata, int mask)
+aeAddMillisecondsToNow	ae.c	169;"	f	language:C	file:	signature:(long long milliseconds, long *sec, long *ms)
+aeApiAddEvent	ae_select.c	37;"	f	language:C	signature:(aeEventLoop *eventLoop, int fd, int mask)
+aeApiAddEvent	ae_select.h	23;"	p	language:C++	signature:(aeEventLoop *el, int fd, int mask)
+aeApiCreate	ae_select.c	17;"	f	language:C	signature:(aeEventLoop *eventLoop)
+aeApiCreate	ae_select.h	20;"	p	language:C++	signature:(aeEventLoop *el)
+aeApiDelEvent	ae_select.c	45;"	f	language:C	signature:(aeEventLoop *eventLoop, int fd, int mask)
+aeApiDelEvent	ae_select.h	24;"	p	language:C++	signature:(aeEventLoop *el, int fd, int mask)
+aeApiFree	ae_select.c	33;"	f	language:C	signature:(aeEventLoop *eventLoop)
+aeApiFree	ae_select.h	22;"	p	language:C++	signature:(aeEventLoop *el)
+aeApiName	ae_select.c	81;"	f	language:C	signature:(void)
+aeApiName	ae_select.h	26;"	p	language:C++	signature:(void)
+aeApiPoll	ae_select.c	52;"	f	language:C	signature:(aeEventLoop *eventLoop, struct timeval *tvp)
+aeApiPoll	ae_select.h	25;"	p	language:C++	signature:(aeEventLoop *el, struct timeval *tvp)
+aeApiResize	ae_select.c	27;"	f	language:C	signature:(aeEventLoop *eventLoop, int setsize)
+aeApiResize	ae_select.h	21;"	p	language:C++	signature:(aeEventLoop *el, int resize)
+aeApiState	ae_select.h	13;"	s	language:C++
+aeApiState	ae_select.h	18;"	t	language:C++	typeref:struct:aeApiState
+aeApiState::_rfds	ae_select.h	17;"	m	language:C++	struct:aeApiState	access:public
+aeApiState::_wfds	ae_select.h	17;"	m	language:C++	struct:aeApiState	access:public
+aeApiState::rfds	ae_select.h	14;"	m	language:C++	struct:aeApiState	access:public
+aeApiState::wfds	ae_select.h	14;"	m	language:C++	struct:aeApiState	access:public
+aeBeforeSleepProc	ae.h	36;"	t	language:C++
+aeCreateEventLoop	ae.c	28;"	f	language:C	signature:(int setsize)
+aeCreateEventLoop	ae.h	80;"	p	language:C++	signature:(int setsize)
+aeCreateFileEvent	ae.c	106;"	f	language:C	signature:(aeEventLoop *eventLoop, int fd, int mask, aeFileProc *proc, void *clientData)
+aeCreateFileEvent	ae.h	83;"	p	language:C++	signature:(aeEventLoop *eventLoop, int fd, int mask, aeFileProc *proc, void *clientData)
+aeCreateTimeEvent	ae.c	187;"	f	language:C	signature:(aeEventLoop *eventLoop, long long milliseconds, aeTimeProc *proc, void *clientData, aeEventFinalizerProc *finalizerProc)
+aeCreateTimeEvent	ae.h	87;"	p	language:C++	signature:(aeEventLoop *eventLoop, long long milliseconds, aeTimeProc *proc, void *clientData, aeEventFinalizerProc *finalizerProc)
+aeDeleteEventLoop	ae.c	89;"	f	language:C	signature:(aeEventLoop *eventLoop)
+aeDeleteEventLoop	ae.h	81;"	p	language:C++	signature:(aeEventLoop *eventLoop)
+aeDeleteFileEvent	ae.c	129;"	f	language:C	signature:(aeEventLoop *eventLoop, int fd, int mask)
+aeDeleteFileEvent	ae.h	85;"	p	language:C++	signature:(aeEventLoop *eventLoop, int fd, int mask)
+aeDeleteTimeEvent	ae.c	206;"	f	language:C	signature:(aeEventLoop *eventLoop, long long id)
+aeDeleteTimeEvent	ae.h	90;"	p	language:C++	signature:(aeEventLoop *eventLoop, long long id)
+aeEventFinalizerProc	ae.h	35;"	t	language:C++
+aeEventLoop	ae.h	66;"	s	language:C++
+aeEventLoop	ae.h	77;"	t	language:C++	typeref:struct:aeEventLoop
+aeEventLoop::apidata	ae.h	75;"	m	language:C++	struct:aeEventLoop	access:public
+aeEventLoop::beforesleep	ae.h	76;"	m	language:C++	struct:aeEventLoop	access:public
+aeEventLoop::events	ae.h	71;"	m	language:C++	struct:aeEventLoop	access:public
+aeEventLoop::fired	ae.h	72;"	m	language:C++	struct:aeEventLoop	access:public
+aeEventLoop::lastTime	ae.h	70;"	m	language:C++	struct:aeEventLoop	access:public
+aeEventLoop::maxfd	ae.h	67;"	m	language:C++	struct:aeEventLoop	access:public
+aeEventLoop::setsize	ae.h	68;"	m	language:C++	struct:aeEventLoop	access:public
+aeEventLoop::stop	ae.h	74;"	m	language:C++	struct:aeEventLoop	access:public
+aeEventLoop::timeEventHead	ae.h	73;"	m	language:C++	struct:aeEventLoop	access:public
+aeEventLoop::timeEventNextId	ae.h	69;"	m	language:C++	struct:aeEventLoop	access:public
+aeFileEvent	ae.h	40;"	s	language:C++
+aeFileEvent	ae.h	45;"	t	language:C++	typeref:struct:aeFileEvent
+aeFileEvent::clientData	ae.h	44;"	m	language:C++	struct:aeFileEvent	access:public
+aeFileEvent::mask	ae.h	41;"	m	language:C++	struct:aeFileEvent	access:public
+aeFileEvent::rfileProc	ae.h	42;"	m	language:C++	struct:aeFileEvent	access:public
+aeFileEvent::wfileProc	ae.h	43;"	m	language:C++	struct:aeFileEvent	access:public
+aeFileProc	ae.h	33;"	t	language:C++
+aeFiredEvent	ae.h	60;"	s	language:C++
+aeFiredEvent	ae.h	63;"	t	language:C++	typeref:struct:aeFiredEvent
+aeFiredEvent::fd	ae.h	61;"	m	language:C++	struct:aeFiredEvent	access:public
+aeFiredEvent::mask	ae.h	62;"	m	language:C++	struct:aeFiredEvent	access:public
+aeGetApiName	ae.c	448;"	f	language:C	signature:(void)
+aeGetApiName	ae.h	94;"	p	language:C++	signature:(void)
+aeGetFileEvents	ae.c	150;"	f	language:C	signature:(aeEventLoop *eventLoop, int fd)
+aeGetFileEvents	ae.h	86;"	p	language:C++	signature:(aeEventLoop *eventLoop, int fd)
+aeGetSetSize	ae.c	60;"	f	language:C	signature:(aeEventLoop *eventLoop)
+aeGetSetSize	ae.h	96;"	p	language:C++	signature:(aeEventLoop *eventLoop)
+aeGetTime	ae.c	157;"	f	language:C	file:	signature:(long *seconds, long *milliseconds)
+aeMain	ae.c	439;"	f	language:C	signature:(aeEventLoop *eventLoop)
+aeMain	ae.h	93;"	p	language:C++	signature:(aeEventLoop *eventLoop)
+aeProcessEvents	ae.c	341;"	f	language:C	signature:(aeEventLoop *eventLoop, int flags)
+aeProcessEvents	ae.h	91;"	p	language:C++	signature:(aeEventLoop *eventLoop, int flags)
+aeResizeSetSize	ae.c	71;"	f	language:C	signature:(aeEventLoop *eventLoop, int setsize)
+aeResizeSetSize	ae.h	97;"	p	language:C++	signature:(aeEventLoop *eventLoop, int setsize)
+aeSearchNearestTimer	ae.c	240;"	f	language:C	file:	signature:(aeEventLoop *eventLoop)
+aeStop	ae.c	96;"	f	language:C	signature:(aeEventLoop *eventLoop)
+aeStop	ae.h	82;"	p	language:C++	signature:(aeEventLoop *eventLoop)
+aeTimeEvent	ae.h	49;"	s	language:C++
+aeTimeEvent	ae.h	57;"	t	language:C++	typeref:struct:aeTimeEvent
+aeTimeEvent::clientData	ae.h	55;"	m	language:C++	struct:aeTimeEvent	access:public
+aeTimeEvent::finalizerProc	ae.h	54;"	m	language:C++	struct:aeTimeEvent	access:public
+aeTimeEvent::id	ae.h	50;"	m	language:C++	struct:aeTimeEvent	access:public
+aeTimeEvent::next	ae.h	56;"	m	language:C++	struct:aeTimeEvent	typeref:struct:aeTimeEvent::aeTimeEvent	access:public
+aeTimeEvent::timeProc	ae.h	53;"	m	language:C++	struct:aeTimeEvent	access:public
+aeTimeEvent::when_ms	ae.h	52;"	m	language:C++	struct:aeTimeEvent	access:public
+aeTimeEvent::when_sec	ae.h	51;"	m	language:C++	struct:aeTimeEvent	access:public
+aeTimeProc	ae.h	34;"	t	language:C++
+aeWait	ae.c	419;"	f	language:C	signature:(int fd, int mask, long long milliseconds)
+aeWait	ae.h	92;"	p	language:C++	signature:(int fd, int mask, long long milliseconds)
+anetGenericAccept	anet.c	10;"	f	language:C	file:	signature:(int s, struct sockaddr *sa, socklen_t *len)
+anetListenBind	anet.c	75;"	f	language:C	file:	signature:(int sockfd, struct sockaddr * addr, socklen_t addrlen, int backlog)
+anetNonBlock	anet.c	151;"	f	language:C	signature:(int fd)
+anetNonBlock	anet.h	21;"	p	language:C++	signature:(int fd)
+anetSetBlock	anet.c	155;"	f	language:C	signature:(int fd, int non_block)
+anetSetBlock	anet.h	22;"	p	language:C++	signature:(int fd, int non_block)
+anetSetReuseAddr	anet.c	65;"	f	language:C	file:	signature:(int sockfd)
+anetTcpAccept	anet.c	39;"	f	language:C	signature:(int serversock, char* ip, size_t ip_len, int *port)
+anetTcpAccept	anet.h	18;"	p	language:C++	signature:(int serversock, char *ip, size_t ip_len, int *port)
+anetTcpServer	anet.c	140;"	f	language:C	signature:(int port, char *bindaddr, int backlog)
+anetTcpServer	anet.h	19;"	p	language:C++	signature:(int port, char *bindaddr, int backlog)
+apidata	ae.h	75;"	m	language:C++	struct:aeEventLoop	access:public
+beforesleep	ae.h	76;"	m	language:C++	struct:aeEventLoop	access:public
+buf	net.h	23;"	m	language:C++	struct:redisContext	access:public
+clientData	ae.h	44;"	m	language:C++	struct:aeFileEvent	access:public
+clientData	ae.h	55;"	m	language:C++	struct:aeTimeEvent	access:public
+client_fd	ae_event_handler.h	14;"	m	language:C++	struct:redisClient	access:public
+clients	ae_event_handler.h	27;"	m	language:C++	struct:redisServer	access:public
+createClient	ae_event_handler.c	130;"	f	language:C	signature:(int fd, aeEventLoop *el)
+createClient	ae_event_handler.h	39;"	p	language:C++	signature:(int fd, aeEventLoop *el)
+current_client_num	ae_event_handler.h	26;"	m	language:C++	struct:redisServer	access:public
+event_loop	ae_event_handler.h	22;"	m	language:C++	struct:redisServer	access:public
+events	ae.h	71;"	m	language:C++	struct:aeEventLoop	access:public
+fd	ae.h	61;"	m	language:C++	struct:aeFiredEvent	access:public
+fd	net.h	22;"	m	language:C++	struct:redisContext	access:public
+finalizerProc	ae.h	54;"	m	language:C++	struct:aeTimeEvent	access:public
+fired	ae.h	72;"	m	language:C++	struct:aeEventLoop	access:public
+freeClient	ae_event_handler.c	169;"	f	language:C	signature:(redisClient *c)
+freeClient	ae_event_handler.h	40;"	p	language:C++	signature:(redisClient *c)
+g_server	ae_event_handler.c	13;"	v	language:C
+g_server	reactor_main.c	6;"	v	language:C
+id	ae.h	50;"	m	language:C++	struct:aeTimeEvent	access:public
+initServer	reactor_main.c	8;"	f	language:C	signature:(redisServer *server)
+issueCommandRepeat	reactor_cli.c	15;"	f	language:C	file:	signature:(char *buf, redisContext *c)
+lastTime	ae.h	70;"	m	language:C++	struct:aeEventLoop	access:public
+listenToPort	ae.c	452;"	f	language:C	signature:(int port, int backlog)
+listenToPort	ae.h	100;"	p	language:C++	signature:(int port, int backlog)
+main	reactor_cli.c	61;"	f	language:C	signature:(int argc, char* argv[])
+main	reactor_main.c	55;"	f	language:C	signature:(int argc, char* argv[])
+mask	ae.h	41;"	m	language:C++	struct:aeFileEvent	access:public
+mask	ae.h	62;"	m	language:C++	struct:aeFiredEvent	access:public
+maxfd	ae.h	67;"	m	language:C++	struct:aeEventLoop	access:public
+next	ae.h	56;"	m	language:C++	struct:aeTimeEvent	typeref:struct:aeTimeEvent::aeTimeEvent	access:public
+output_buf	ae_event_handler.h	17;"	m	language:C++	struct:redisClient	access:public
+output_len	ae_event_handler.h	16;"	m	language:C++	struct:redisClient	access:public
+pid	ae_event_handler.h	21;"	m	language:C++	struct:redisServer	access:public
+port	ae_event_handler.h	23;"	m	language:C++	struct:redisServer	access:public
+processBuffer	ae_event_handler.c	201;"	f	language:C	signature:(aeEventLoop *el, redisClient *c)
+processTimeEvents	ae.c	259;"	f	language:C	file:	signature:(aeEventLoop *eventLoop)
+query_buf	ae_event_handler.h	15;"	m	language:C++	struct:redisClient	access:public
+readQueryFromClient	ae_event_handler.c	59;"	f	language:C	signature:(aeEventLoop *el, int fd, void *privdata, int mask)
+readQueryFromClient	ae_event_handler.h	42;"	p	language:C++	signature:(aeEventLoop *event_loop, int fd, void *privdata, int mask)
+recvFromClientHandler	ae_event_handler.c	46;"	f	language:C	signature:(aeEventLoop *el, int fd, void *privdata, int mask)
+recvFromClientHandler	ae_event_handler.h	34;"	p	language:C++	signature:(aeEventLoop *el, int fd, void *privdata, int mask)
+redisClient	ae_event_handler.h	13;"	s	language:C++
+redisClient	ae_event_handler.h	18;"	t	language:C++	typeref:struct:redisClient
+redisClient::client_fd	ae_event_handler.h	14;"	m	language:C++	struct:redisClient	access:public
+redisClient::output_buf	ae_event_handler.h	17;"	m	language:C++	struct:redisClient	access:public
+redisClient::output_len	ae_event_handler.h	16;"	m	language:C++	struct:redisClient	access:public
+redisClient::query_buf	ae_event_handler.h	15;"	m	language:C++	struct:redisClient	access:public
+redisConnect	net.c	10;"	f	language:C	signature:(const char *ip, int port)
+redisConnect	net.h	26;"	p	language:C++	signature:(const char *ip, int port)
+redisContext	net.h	21;"	s	language:C++
+redisContext	net.h	24;"	t	language:C++	typeref:struct:redisContext
+redisContext::buf	net.h	23;"	m	language:C++	struct:redisContext	access:public
+redisContext::fd	net.h	22;"	m	language:C++	struct:redisContext	access:public
+redisContextConnectTcp	net.c	125;"	f	language:C	signature:(redisContext *c, const char *ip, int port, const struct timeval * timeout)
+redisContextConnectTcp	net.h	27;"	p	language:C++	signature:(redisContext *c, const char *addr, int port, const struct timeval *timeout)
+redisFreeContext	net.c	130;"	f	language:C	signature:(redisContext *c)
+redisFreeContext	net.h	30;"	p	language:C++	signature:(redisContext *c)
+redisServer	ae_event_handler.h	20;"	s	language:C++
+redisServer	ae_event_handler.h	28;"	t	language:C++	typeref:struct:redisServer
+redisServer::clients	ae_event_handler.h	27;"	m	language:C++	struct:redisServer	access:public
+redisServer::current_client_num	ae_event_handler.h	26;"	m	language:C++	struct:redisServer	access:public
+redisServer::event_loop	ae_event_handler.h	22;"	m	language:C++	struct:redisServer	access:public
+redisServer::pid	ae_event_handler.h	21;"	m	language:C++	struct:redisServer	access:public
+redisServer::port	ae_event_handler.h	23;"	m	language:C++	struct:redisServer	access:public
+redisServer::server_fd	ae_event_handler.h	24;"	m	language:C++	struct:redisServer	access:public
+redisServer::tcp_backlog	ae_event_handler.h	25;"	m	language:C++	struct:redisServer	access:public
+redisSetBlocking	net.c	23;"	f	language:C	file:	signature:(redisContext *c, int blocking)
+replyToClientHandler	ae_event_handler.c	50;"	f	language:C	signature:(aeEventLoop *el, int fd, void *privdata, int mask)
+replyToClientHandler	ae_event_handler.h	35;"	p	language:C++	signature:(aeEventLoop *el, int fd, void *privdata, int mask)
+rfds	ae_select.h	14;"	m	language:C++	struct:aeApiState	access:public
+rfileProc	ae.h	42;"	m	language:C++	struct:aeFileEvent	access:public
+sendReplyToClient	ae_event_handler.c	99;"	f	language:C	signature:(aeEventLoop *el, int fd, void *privdata, int mask)
+sendReplyToClient	ae_event_handler.h	41;"	p	language:C++	signature:(aeEventLoop *event_loop, int fd, void *privdata, int mask)
+servCron	reactor_main.c	39;"	f	language:C	signature:(aeEventLoop *el, long long id, void *client_data)
+servCron	reactor_main.h	19;"	p	language:C++	signature:(aeEventLoop *el, long long id, void *client_data)
+server_fd	ae_event_handler.h	24;"	m	language:C++	struct:redisServer	access:public
+setsize	ae.h	68;"	m	language:C++	struct:aeEventLoop	access:public
+stop	ae.h	74;"	m	language:C++	struct:aeEventLoop	access:public
+tcp_backlog	ae_event_handler.h	25;"	m	language:C++	struct:redisServer	access:public
+timeEventHead	ae.h	73;"	m	language:C++	struct:aeEventLoop	access:public
+timeEventNextId	ae.h	69;"	m	language:C++	struct:aeEventLoop	access:public
+timeProc	ae.h	53;"	m	language:C++	struct:aeTimeEvent	access:public
+wfds	ae_select.h	14;"	m	language:C++	struct:aeApiState	access:public
+wfileProc	ae.h	43;"	m	language:C++	struct:aeFileEvent	access:public
+when_ms	ae.h	52;"	m	language:C++	struct:aeTimeEvent	access:public
+when_sec	ae.h	51;"	m	language:C++	struct:aeTimeEvent	access:public
+zcalloc	zmalloc.h	9;"	d	language:C++
+zfree	zmalloc.h	7;"	d	language:C++
+zmalloc	zmalloc.h	6;"	d	language:C++
+zrealloc	zmalloc.h	8;"	d	language:C++
+zstrdup	zmalloc.h	10;"	d	language:C++
